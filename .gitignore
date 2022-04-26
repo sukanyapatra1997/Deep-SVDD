@@ -108,3 +108,7 @@ Temporary Items
 
 .ipynb_checkpoints
 .ipynb_checkpoints/*
+data
+data/*
+log
+log/*

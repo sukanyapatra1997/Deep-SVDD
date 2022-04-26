@@ -20,6 +20,8 @@ class AETrainer(BaseTrainer):
     def train(self, dataset: BaseADDataset, ae_net: BaseNet):
         logger = logging.getLogger()
 
+
+        ae_net = ae_net.float()
         # Set device for network
         ae_net = ae_net.to(self.device)
 
